@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Cira Management">
+	<test thread-count="1" name="Login Test Cases" enabled="true">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.cira.testcases.authentication.loginTestCases">
+				<methods>
+					<include name="ValidInputLoginTest"></include> 
+					<include name="ValidInputLoginTestWithEnterKey"></include>
+					<include name="clickBrowserBackTest"></include>
+					<include name="InvalidUserValidPassword"></include>
+					<include name="validUserInvalidPassword"></include>
+					<include name="InValidInputLoginTest"></include>
+					<include name="ShowPasswordFunctionality"></include>
+					<include name="LoginWithEmptyField"></include>				
+				</methods> 
+			</class>
+		</classes>
+	</test>
+	<test thread-count="1" name="Navigate to Amberwood in Community"
+		enabled="false">
+		<classes>
+			<class name="com.cira.testcases.VisitCommunity"></class>
+		</classes>
+	</test>
+
+	<test thread-count="1" name="Navigate to Romich in Owner"
+		enabled="false">
+		<classes>
+			<class name="com.cira.testcases.SearchOwnerOrProperty"></class>
+		</classes>
+	</test>
+
+
+</suite> 

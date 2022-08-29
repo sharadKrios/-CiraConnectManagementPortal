@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Cira Management]">
+  <parameter name="browser" value="chrome"/>
+  <test parallel="none" name="Login Test Cases(failed)" preserve-order="true">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.cira.testcases.authentication.loginTestCases">
+        <methods>
+          <include name="InvalidUserValidPassword"/>
+          <include name="setUp"/>
+          <include name="validUserInvalidPassword"/>
+          <include name="InValidInputLoginTest"/>
+          <include name="ValidInputLoginTest"/>
+          <include name="ShowPasswordFunctionality"/>
+          <include name="LoginWithEmptyField"/>
+        </methods>
+      </class> <!-- com.cira.testcases.authentication.loginTestCases -->
+    </classes>
+  </test> <!-- Login Test Cases(failed) -->
+</suite> <!-- Failed suite [Cira Management] -->

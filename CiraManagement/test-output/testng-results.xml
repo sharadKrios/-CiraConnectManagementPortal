@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-29T07:11:57Z" name="Cira Management" finished-at="2022-08-29T07:15:22Z" duration-ms="205229">
+    <groups>
+    </groups>
+    <test started-at="2022-08-29T07:11:57Z" name="Login Test Cases" finished-at="2022-08-29T07:15:22Z" duration-ms="205229">
+      <class name="com.cira.testcases.authentication.loginTestCases">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.cira.testcases.authentication.loginTestCases@782859e]" started-at="2022-08-29T12:41:57Z" name="setUp" finished-at="2022-08-29T12:43:43Z" duration-ms="105694" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ValidInputLoginTest()[pri:0, instance:com.cira.testcases.authentication.loginTestCases@782859e]" started-at="2022-08-29T12:43:43Z" name="ValidInputLoginTest" finished-at="2022-08-29T12:44:08Z" duration-ms="24961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidInputLoginTest -->
+        <test-method signature="ValidInputLoginTestWithEnterKey()[pri:0, instance:com.cira.testcases.authentication.loginTestCases@782859e]" started-at="2022-08-29T12:44:08Z" name="ValidInputLoginTestWithEnterKey" finished-at="2022-08-29T12:44:30Z" duration-ms="22023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidInputLoginTestWithEnterKey -->
+        <test-method signature="clickBrowserBackTest()[pri:0, instance:com.cira.testcases.authentication.loginTestCases@782859e]" started-at="2022-08-29T12:44:30Z" name="clickBrowserBackTest" finished-at="2022-08-29T12:44:51Z" duration-ms="21702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickBrowserBackTest -->
+        <test-method signature="InvalidUserValidPassword()[pri:0, instance:com.cira.testcases.authentication.loginTestCases@782859e]" started-at="2022-08-29T12:44:51Z" name="InvalidUserValidPassword" finished-at="2022-08-29T12:44:57Z" duration-ms="5749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidUserValidPassword -->
+        <test-method signature="validUserInvalidPassword()[pri:0, instance:com.cira.testcases.authentication.loginTestCases@782859e]" started-at="2022-08-29T12:44:57Z" name="validUserInvalidPassword" finished-at="2022-08-29T12:45:02Z" duration-ms="4903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUserInvalidPassword -->
+        <test-method signature="InValidInputLoginTest()[pri:0, instance:com.cira.testcases.authentication.loginTestCases@782859e]" started-at="2022-08-29T12:45:02Z" name="InValidInputLoginTest" finished-at="2022-08-29T12:45:08Z" duration-ms="5812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InValidInputLoginTest -->
+        <test-method signature="ShowPasswordFunctionality()[pri:0, instance:com.cira.testcases.authentication.loginTestCases@782859e]" started-at="2022-08-29T12:45:08Z" name="ShowPasswordFunctionality" finished-at="2022-08-29T12:45:13Z" duration-ms="5086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShowPasswordFunctionality -->
+        <test-method signature="LoginWithEmptyField()[pri:0, instance:com.cira.testcases.authentication.loginTestCases@782859e]" started-at="2022-08-29T12:45:13Z" name="LoginWithEmptyField" finished-at="2022-08-29T12:45:20Z" duration-ms="6678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithEmptyField -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cira.testcases.authentication.loginTestCases@782859e]" started-at="2022-08-29T12:45:20Z" name="tearDown" finished-at="2022-08-29T12:45:22Z" duration-ms="2545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.cira.testcases.authentication.loginTestCases -->
+    </test> <!-- Login Test Cases -->
+  </suite> <!-- Cira Management -->
+</testng-results>
